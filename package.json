@@ -1,0 +1,17 @@
+{
+  "name": "ssh-file-transfer",
+  "version": "1.0.0",
+  "description": "Easy way to transfer files and folder to remote server without manulally doing it by terminal or github, and executing specific command like reloading and restarting server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transfer": "node transfer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ssh2-sftp-client": "^10.0.3"
+  }
+}
